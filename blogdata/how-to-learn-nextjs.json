@@ -1,0 +1,11 @@
+{
+    "title" : "How to learn Next.js",
+    "slug" : "how-to-learn-nextjs",
+    "author" : "Arunoda Susiripala",
+    "tags" : ["nextjs", "react"],
+    "date" : "2018-01-01",
+    "image" : "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "description" : "Learn Next.js from scratch",
+    "content" : "Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites. Nextjs is awesome and you should learn it now. It's easy to learn and you can start building your own apps in no time. It's also easy to deploy and you can deploy your app to any hosting provider."
+
+}

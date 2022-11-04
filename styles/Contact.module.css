@@ -1,0 +1,88 @@
+.container{
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    padding: 2rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(250, 247, 247, 0.5);
+}
+
+.name{
+    color: #0070f3;
+}
+
+.text{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.inputBox input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.inputBox input:hover, .inputBox input:focus, .inputBox input:active{
+    border: 1px solid #0070f3;
+}
+
+.inputBox textarea{
+    width: 400px;
+    height: 100px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.inputBox textarea:hover, .inputBox textarea:focus, .inputBox textarea:active{
+    border: 1px solid #0070f3;
+}
+
+.btn{
+    font-size: 1.5rem;
+    /* width: 400px !important;
+    height: 50px !important; */
+    padding: .7rem 5rem;
+    margin: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;    
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #0070f3;
+    border: 1px solid #0070f3;
+    transform: scale(1.1);
+}   
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

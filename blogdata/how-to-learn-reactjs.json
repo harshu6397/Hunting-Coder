@@ -1,0 +1,11 @@
+{
+    "title" : "How to learn React js",
+    "slug" : "how-to-learn-reactjs",
+    "author" : "Mosh Hamedani",
+    "tags" : ["react", "frontend"],
+    "date" : "2019-05-20",
+    "image" : "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "description" : "This post will get you started with React js",
+    "content" : "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries."
+
+}

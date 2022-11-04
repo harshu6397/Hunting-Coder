@@ -1,0 +1,10 @@
+{
+    "title" : "How to learn Flask",
+    "slug" : "how-to-learn-flask",
+    "author" : "Harsh Bhatia",
+    "tags" : ["flask", "python", "tutorial"],
+    "date" : "2014-01-01",
+    "image" : "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "description" : "A guide to learning Flask",
+    "content" : "This post is related to flask and python. It is a tutorial. It is a guide to learning flask. It is a guide to learning python. It is a guide to learning flask and python. Flask is python library to bulid websites and more." 
+}

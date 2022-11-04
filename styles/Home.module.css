@@ -3,29 +3,13 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 60%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
@@ -51,7 +35,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -108,6 +92,45 @@
   margin-left: 0.5rem;
 }
 
+.blogs{
+  max-width: 300px;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  max-width: 1000px;
+  margin: auto;
+}
+
+.blog{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 250px;
+  min-height: 400px;
+  max-height: 400px;
+  box-shadow: 0 0 10px rgba(218, 218, 218, 0.5);
+}
+
+.blog img{
+  border-radius: 10px;
+}
+
+.blog:hover{
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.blog h3{
+  margin: 10px 0 1rem 0;
+  font-size: 1.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -126,4 +149,26 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.btn{
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover{
+  background-color: #eaeaea;
+  color: #0070f3;
+  transform: scale(1.1);
+}
+
+
+.conatiner::-webkit-scrollbar{
+  display: none;
 }

@@ -1,0 +1,20 @@
+.container{
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.name{
+    color: #0070f3;
+}
+
+.text{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}

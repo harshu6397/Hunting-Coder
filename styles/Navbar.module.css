@@ -1,0 +1,21 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .navListItem{
+    padding: 0 1rem;
+  }
+  
+  .navListItem:hover{
+    color: #0070f3;
+  }
